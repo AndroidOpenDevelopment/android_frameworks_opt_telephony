@@ -1966,6 +1966,12 @@ public interface CommandsInterface {
     public void requestShutdown(Message result);
 
     /**
+     * @hide
+     * CM-specific: Ask the RIL about the presence of back-compat flags
+     */
+    public boolean needsOldRilFeature(String feature);
+
+    /**
      * Register/unregister for WWAN and IWLAN coexistence
      * notification.
      *
