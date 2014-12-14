@@ -1972,6 +1972,7 @@ public interface CommandsInterface {
     public boolean needsOldRilFeature(String feature);
 
     /**
+     * @hide
      * Register/unregister for WWAN and IWLAN coexistence
      * notification.
      *
